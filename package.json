@@ -1,9 +1,9 @@
 {
-  "name": "webpack-pug-scss-boiperplate",
+  "name": "UIUG",
   "version": "2.1.3",
   "description": "A webpack boilerplate for building web apps",
   "main": "./app/scripts/index.js",
-  "author": "Alex Nozdriukhin",
+  "author": "Roxanne",
   "license": "MIT",
   "scripts": {
     "analyze": "webpack-bundle-analyzer ./stats.json",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexnoz/webpack-pug-scss-boilerplate.git"
+    "url": "https://github.com/roxanne-4731/UIUG.git"
   },
   "keywords": [
     "boilerplate",
@@ -24,7 +24,7 @@
   ],
   "devDependencies": {
     "@babel/cli": "7.4.3",
-    "@babel/core": "7.4.3",
+    "@babel/core": "^7.12.9",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "@babel/preset-env": "7.4.3",
     "autoprefixer": "^9.5.1",
@@ -53,7 +53,7 @@
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^4.6.0",
     "mini-css-extract-plugin": "0.6.0",
-    "node-sass": "4.11.0",
+    "node-sass": "4.12.0",
     "nodemon": "^1.18.11",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
@@ -82,5 +82,7 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "uikit": "^3.5.10"
+  }
 }
